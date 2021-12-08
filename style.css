@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient(to right,rgb(230, 227, 68),rgb(108, 218, 108));
+    padding: 20px;
+    margin: 40px;
+}
+img{
+    width: 60%;
+    height: 70%;
+}
+#card{
+    position: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 black;
+    width: 550px;
+    height: 275px;
+    background-image: linear-gradient(to right,rgb(121, 231, 195),rgb(125, 125, 224));
+}
+#succ{
+    position: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 black;
+    width: 550px;
+    height: 275px;
+    background-image: linear-gradient(to right,rgb(121, 231, 195),rgb(125, 125, 224));
+}
+#fail{
+    position: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 black;
+    width: 550px;
+    height: 275px;
+    background-image: linear-gradient(to right,rgb(121, 231, 195),rgb(125, 125, 224));
+}
+label{
+    font-size: 25px;
+    font-family: fantasy;
+    text-shadow: gray;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 0;
+    border-top: 50px solid rgb(177, 172, 172);
+    margin-left: auto;    
+    margin-right: auto;
+}
+input[type=number]{
+    width: 53%;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    background-image: linear-gradient(to right,rgb(164, 164, 206),rgb(219, 166, 166));
+    border-color: white;
+    color: black;
+    font-size: 15px;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: fantasy;
+    border-radius: 15%;
+}
+.flex{
+    display: flex;
+    flex: wrap;
+    width: 175px;
+    height: 175px;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 90%;
+    flex-direction: column;
+}
+.fl{
+    display: flex;
+    flex-direction: row;
+    width: 62.5%;
+    height: 450px;
+    text-align: center;
+}
+.fl1{
+    width: 50%;
+}
+.fl2{
+    width: 50%;
+}
