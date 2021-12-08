@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Numberates</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="./coin.png">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div class="flex">
+            <h2>ATTEMPTS</h2>
+            <div style="font-size: 35px;" id="count"></div>
+        </div>
+        </div>
+        <h2 style="text-align: center;">NUMBER GUESSING GAME</h2><hr width="30%">
+        <div class="fl">
+            <div class="fl1">
+                <img src="./man.svg">
+            </div>
+            <div class="fl2">
+                <div id="card">
+                    <h3>Guess the number between 1-100</h3>
+                    <div class="triangle"></div><br>
+                    <div class="que">
+                        <label for="in">Enter the number</label>
+                        <input type="number" id="input" name="in" max="100" min="1"><br>
+                        <button type="submit" onclick="check()">Check</button>
+                    </div>
+                </div>
+                <div id="succ">
+                    <h3>CONGRATULATIONS..You've won the game</h3>
+                    <h1 style="text-align: center;">&#129321;</h1>
+                </div>
+                <div id="fail">
+                    <h3>Sorry..Better luck next time</h3>
+                    <h1 style="text-align: center;">&#129301;</h1>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; color: rgb(54, 49, 49); font-size: 35px;"><span id="mess"></span></div>
+    </body>
+</html>
